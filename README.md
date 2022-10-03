@@ -69,6 +69,10 @@ sudo /opt/bitnami/letsencrypt/lego --tls --email="EMAIL-ADDRESS" --domains="DOMA
 sudo /opt/bitnami/ctlscript.sh start nginx
 ```
 
+- Execute the script
+
+`sudo ./opt/bitnami/letsencrypt/scripts/renew-certificate.sh`
+
 - Make the script executable:
 
 `chmod +x /opt/bitnami/letsencrypt/scripts/renew-certificate.sh`
